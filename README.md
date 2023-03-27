@@ -1,12 +1,6 @@
 # Amsterdam Internships - Example README
 
-Explain in short what this repository is. Mind the target audience.
-No need to go into too much technical details if you expect some people would just use it as end-users 
-and don't care about the internals (so focus on what the code really *does*), not how.
-The *_How it works_* section below would contain more technical details for curious people.
-
-If applicable, you can also show an example of the final output.
-
+This repository containts code for my master's thesis project. The project aims to predict the deformation of quay walls in Amsterdam using soil and satellite data. The soil data contains information on the subsurface of the quay wall, whereas the satellite data provides the subsidence of the ground. The target variable is the tacheometry data of the quay walls, measuring deformation in x, y, and z direction. The predictions will be done with different configurations of BiLSTM models, conforming to early, incremental, and late model fusion.
 
 ---
 
