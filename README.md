@@ -5,17 +5,26 @@ This repository containts code for my master's thesis project. The project aims 
 ---
 
 
-## Project Folder Structure
+## Project Structure
 
-Explain briefly what's where so people can find their way around. For example:
+EploratoryDataAnalysis.ipynb contains the EDA on all data except for the satellite data.
+Load_satellite.ipynb contains the loading functions, EDA, and preprocessing for the satellite data. It stores three preprocessed csv for horizontal, vertical and hinterland settlemen in the end.
+LoadMeetbouten.ipynb contains the loading functions and some preprocessing for the building tacheometry data. It yields a preprocessed csv.
+LoadSoil.ipynb contains the loading functions for the soil data, the data is stored in one csv for CPT data and one for Bore data.
+LoadTacheometry.ipynb contains the loading functions for the quay wall tacheometry data. The data is stored in different formats in different csv's, because of changing my mind on the format. - TO DO: make sure only one format remains and is adjusted everywhere appropriately.
+prepare_cpt.ipynb contains functions to preprocess the CPT data. It outputs a preprocessed csv, ready for the training notebook. - TO DO: combine with loadSoil.ipynb for better overview.
+prepare_tcmt.ipynb contains functions to preprocess the tacheometry data. It outputs a preprocessed csv, ready for the training notebook. - TO DO: combine with LoadTacheometry.ipynb for better overview.
+Train.ipynb contains functions to train and evaluate the data. It also contains the experiments and their results.
 
-There are the following folders in the structure:
+<!-- Explain briefly what's where so people can find their way around. For example:
 
-1) [`resources`](./resources): Random nice resources, e.g. [`useful links`](./resources/README.md)
-1) [`src`](./src): Folder for all source files specific to this project
-1) [`scripts`](./scripts): Folder with example scripts for performing different tasks (could serve as usage documentation)
-1) [`tests`](./tests) Test example
-1) [`media`](./media): Folder containing media files (icons, video)
+There are the following folders in the structure: -->
+
+<!-- 1) [`resources`](./resources): Random nice resources, e.g. [`useful links`](./resources/README.md) - Does not contain anything now.
+1) [`src`](./src): Folder for all source files specific to this project - Does not contain anything now.
+1) [`scripts`](./scripts): Folder with example scripts for performing different tasks (could serve as usage documentation) - Does not contain anything now.
+1) [`tests`](./tests) Test example - Does not contain anything now.
+1) [`media`](./media): Folder containing media files (icons, video) - Does not contain anything now.
 1) ...
 
 OR
@@ -34,7 +43,7 @@ Or use something like `tree` to include the overall structure with preferred lev
 
 If you are lacking ideas on how to structure your code at the first place, take a look at [`CookieCutter`](https://drivendata.github.io/cookiecutter-data-science/)
 
----
+--- -->
 
 
 ## Installation
@@ -46,7 +55,7 @@ A person should be able to clone this repo, follow your instructions blindly, an
 
 1) Clone this repository:
     ```bash
-    git clone https://github.com/Amsterdam-Internships/InternshipAmsterdamGeneral
+    git clone https://github.com/Amsterdam-Internships/QuayWallDeformation/
     ```
 
 1) If you are using submodules don't forget to include `--recurse-submodules` to the step above or mention that people can still do it afterwards:
