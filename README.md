@@ -27,6 +27,9 @@ There are the following folders in the structure: -->
 1) [`media`](./media): Folder containing media files (icons, video) - Does not contain anything now.
 1) ...
 
+--- -->
+<!--
+
 OR
 
 Or use something like `tree` to include the overall structure with preferred level of detail (`-L 2` or `-d` or `-a`...)
@@ -38,12 +41,12 @@ Or use something like `tree` to include the overall structure with preferred lev
 ├── src --
 └── tests
 ```
-
+-->
 
 
 If you are lacking ideas on how to structure your code at the first place, take a look at [`CookieCutter`](https://drivendata.github.io/cookiecutter-data-science/)
 
---- -->
+
 
 
 ## Installation
