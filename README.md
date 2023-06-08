@@ -21,8 +21,7 @@ This repository containts code for my master's thesis project. The project aims 
     ```bash
     git clone https://github.com/Amsterdam-Internships/QuayWallDeformation/
     ```
-
-2) Install all dependencies:
+2) Install all dependencies (Python version == 3.9.7):
     ```bash
     pip install -r requirements.txt
     ```
