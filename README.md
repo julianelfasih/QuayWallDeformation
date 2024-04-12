@@ -1,6 +1,6 @@
 # Amsterdam Internships - Predicting the Deformation of Quay Walls in Amsterdam
 
-This repository containts code for my master's thesis project. The project aims to predict the deformation of quay walls in Amsterdam using soil and satellite data. The soil data contains information on the subsurface of the quay wall, whereas the satellite data provides the subsidence of the ground. The target variable is the tacheometry data of the quay walls, measuring deformation in x, y, and z direction. The predictions will be done with different configurations of BiLSTM models, conforming to early, incremental, and late model fusion.
+This repository contains code for my master's thesis project. The project aims to predict the deformation of quay walls in Amsterdam using soil and satellite data. The soil data contains information on the subsurface of the quay wall, whereas the satellite data provides the subsidence of the ground. The target variable is the tacheometry data of the quay walls, measuring deformation in x, y, and z direction. The predictions will be done with different configurations of BiLSTM models, conforming to early, incremental, and late model fusion.
 
 ---
 
